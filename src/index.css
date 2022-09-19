@@ -1,13 +1,128 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Quicksand';
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f1356d;
+}
+.navbar h1{
+  color: #f1356d;
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover{
+  color: #f1356d;
+}
+
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.comment-list h2{
+  color: #f1356d;
+}
+.comment-preview{
+  margin: 10px auto;
+  padding: 14px;
+  cursor: pointer;
+  transition:.2s;
+}
+.comment-preview:hover{
+  border: none;
+  box-shadow: 0 0 8px #f1356d55;
+  transform: scale(1.01);
+}
+.comment-preview *{
+  margin-bottom: 12px;
+}
+.comment-preview a{
+  text-decoration: none;
+}
+
+.comment-preview p{
+  font-style: italic;
+}
+
+.comment-details{
+  padding: 18px 10px;
+}
+.comment-details *{
+  margin-bottom: 10px;
+}
+.comment-details h3{
+  font-size: 1.5rem;
+  font-weight:500;
+  color: #f1356d;
+}
+.comment-details h4{
+  font-style: italic;
+}
+.comment-details p{
+  letter-spacing: 1px;
+}
+
+
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create h3{
+  font-size: 20px;
+  color:#f1356d;
+  margin-bottom: 30px;
+}
+.create label{
+  display: block;
+  text-align: left;
+}
+.create input, .create textarea, .create select{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border:1px solid #ddd;
+}
+.create button,.comment-details button{
+  background-color: #f1356d;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  margin: 10px auto;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.not-found{
+  margin: 30px 0;
+  text-align: center;
+}
+.not-found h2{
+  color:#f1356d;
+  margin-bottom: 20px;
+}
+.not-found p{
+  margin-bottom: 12px;
+}
+.not-found a{
+  color: #f1356d;
+  font-style: italic;
 }

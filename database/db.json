@@ -1,0 +1,22 @@
+{
+  "comments": [
+    {
+      "name": "Kraine",
+      "topic": "First Comment",
+      "body": "This is my first comment. Just testing out this thing.",
+      "id": 1
+    },
+    {
+      "name": "Aundre",
+      "topic": "React",
+      "body": "Familiarizing myself with react. Used it to built this web app. I am impressed so far.",
+      "id": 2
+    },
+    {
+      "name": "Bushi",
+      "topic": "For the sake of commenting",
+      "body": "This comment is pointless. It is just here because a comment is needed in this spot. But, if you enjoy reading comments, then feel free to read this comment over and over and over and over and over...",
+      "id": 3
+    }
+  ]
+}
